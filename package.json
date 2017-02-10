@@ -5,7 +5,7 @@
     "build": "ngc -p tsconfig.json",
     "lint": "tslint src/**/*.ts",
     "test": "tsc && karma start",
-    "postinstall": "node ./node_modules/ng2-aw-lib tsc",
+    "__postinstall": "node ./node_modules/ng2-aw-lib tsc",
     "tsc": "tsc"
   },
   "repository": {
